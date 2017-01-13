@@ -1,0 +1,32 @@
+.custom_color {
+    background-color: #00A1F1;
+    color: white;
+}
+.custom_color ul li a{
+    color:white;
+}
+
+.footer_area{
+    background-color: #00A1F1;
+    padding: 15px;
+    color: white;
+}
+.footer_area a{
+    float: right;
+    padding: 0px 5px;
+}
+.footer_area a i{
+    color: white;
+}
+
+
+.big_footer ul li{ list-style-type: none; }
+.big_footer ul li a{ color: white; }
+
+
+
+@media screen and (max-width:480px){
+    [class*='col-']{
+        width:100%;
+    }
+}
